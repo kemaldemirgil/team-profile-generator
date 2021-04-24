@@ -1,20 +1,15 @@
-const inquirer = require('inquirer');
-const fs = require("fs");
-
-// name
-
-// id
-
-// email
-
-// officeNumber
-
-// getName()
-
-// getId()
-
-// getEmail()
-
-
-// getRole()
-// returns 'Manager'
+<div class="col-md-6 col-lg-4">
+    <div class="card">
+        <div class="card-header">
+            <h2>{% name %}</h2>
+            <h3><i class="fas fa-mug-hot"></i> Manager</h3>
+        </div>
+        <div class="card-body">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">ID: {% id %}</li>
+                <li class="list-group-item">Email: <a href="mailto:{% email %}">{% email %}</a></li>
+                <li class="list-group-item">Office Number: {% office %}</li>
+            </ul>
+        </div>
+    </div>
+</div>
