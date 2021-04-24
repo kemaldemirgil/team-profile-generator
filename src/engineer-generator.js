@@ -1,3 +1,8 @@
+const generator = () => {
+    
+}
+
+return `
 <div class="col-md-6 col-lg-4">
     <div class="card">
         <div class="card-header">
@@ -13,3 +18,4 @@
         </div>
     </div>
 </div>
+`
