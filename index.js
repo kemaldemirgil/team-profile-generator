@@ -1,5 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require("fs");
+// var colors = require('colors');
+
+// console.log('This is rainbow'.rainbow);
 
 const generatedHTML = (response) => {
   return `
@@ -16,6 +19,7 @@ const generatedHTML = (response) => {
     </body>
   </html>`
 }
+
 console.log("~~~~~~~~~~~~~~Team Generator~~~~~~~~~~~~~~");
 inquirer .prompt([
   {
