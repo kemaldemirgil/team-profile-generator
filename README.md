@@ -3,7 +3,7 @@
 
 ### About:
 This is a software engineering team generator application that creates new members depending on their position in the team. It can generate an infinite amount of members while still maintaining the structure of the `HTML` webpage its being displayed. The application runs on `Node.js` and also uses the `Inquirer`, `fs` and `colors` modules.\
-The main purpose of this application was to implement `OOP`(Object Oriented Programming) with using classes and keeping the file structure organized while using the `jest` framework to test these classes.\
+The main purpose of this application was to implement `OOP`(Object-Oriented Programming) with using classes and keeping the file structure organized while using the `jest` framework to test these classes.\
 There are 4 main classes and 33 tests that check these classes.
 
 - *Employee.test.js*
