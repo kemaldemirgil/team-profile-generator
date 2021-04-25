@@ -18,7 +18,7 @@ There are 4 main classes and 33 tests that check these classes.
 ![](assets/demo.gif)
 
 ### Webpage:
-![](assets/html.gif)
+![](assets/htmlss.png)
 
 ### Installation:
 1. Clone this repository\
