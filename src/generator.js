@@ -1,6 +1,6 @@
 class Generator {
     manangerGenerator = (user) => {
-        return `    <div class="col-md-6 col-lg-4">
+        return `    <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-header">
                             <h2>${user.name}</h2>
@@ -18,7 +18,7 @@ class Generator {
     }
 
     engineerGenerator = (user) => {
-        return `    <div class="col-md-6 col-lg-4">
+        return `    <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-header">
                             <h2>${user.name}</h2>
@@ -36,7 +36,7 @@ class Generator {
     }
     
     internGenerator = (user) => {
-        return `    <div class="col-md-6 col-lg-4">
+        return `    <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-header">
                             <h2>${user.name}</h2>

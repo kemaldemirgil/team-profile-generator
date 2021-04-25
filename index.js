@@ -29,7 +29,8 @@ const starter = () => {
           type: 'input',
           message: "Please enter the team manager's name...".brightMagenta,
           name: 'name',
-          validate: (value) => {if (value){return true} else {return console.log("Please enter a valid name".red.dim)}}
+          validate: (value) => {if (value){return true} else 
+          {return console.log("Please enter a valid name".red.dim)}}
         },
         {
           type: 'input',
@@ -41,13 +42,15 @@ const starter = () => {
           type: 'input',
           message: "Please enter the team manager's email address...".brightMagenta,
           name: 'email',
-          validate: (value) => {if (value){return true} else {return console.log("Please enter a valid email address".red.dim)}}
+          validate: (value) => {if (value){return true} else 
+          {return console.log("Please enter a valid email address".red.dim)}}
         },
         {
           type: 'input',
           message: "Please enter the team manager's office number...".brightMagenta,
           name: 'office',
-          validate: (value) => {if (value){return true} else {return console.log("Please enter a valid office number".red.dim)}}
+          validate: (value) => {if (value){return true} else 
+          {return console.log("Please enter a valid office number".red.dim)}}
         }
       ])
       .then(function({name, id, email, office}) {
@@ -89,7 +92,8 @@ const engineerQuesitons = () => {
       type: 'input',
       message: "Please enter the engineer's name...".brightBlue,
       name: 'name',
-      validate: (value) => {if (value){return true} else {return console.log("Please enter a valid name".red.dim)}}
+      validate: (value) => {if (value){return true} else 
+      {return console.log("Please enter a valid name".red.dim)}}
     },
     {
       type: 'input',
@@ -101,13 +105,15 @@ const engineerQuesitons = () => {
       type: 'input',
       message: "Please enter the engineer's email address...".brightBlue,
       name: 'email',
-      validate: (value) => {if (value){return true} else {return console.log("Please enter a valid email address".red.dim)}}
+      validate: (value) => {if (value){return true} else 
+      {return console.log("Please enter a valid email address".red.dim)}}
     },
     {
       type: 'input',
       message: "Please enter the engineer's Github username...".brightBlue,
       name: 'github',
-      validate: (value) => {if (value){return true} else {return console.log("Please enter a valid Github username".red.dim)}}
+      validate: (value) => {if (value){return true} else 
+      {return console.log("Please enter a valid Github username".red.dim)}}
     }
   ])
   .then(function({name, id, email, github}) {
@@ -124,7 +130,8 @@ const internQuestions = () => {
       type: 'input',
       message: "Please enter the intern's name...".brightYellow,
       name: 'name',
-      validate: (value) => {if (value){return true} else {return console.log("Please enter a valid name".red.dim)}}
+      validate: (value) => {if (value){return true} else 
+      {return console.log("Please enter a valid name".red.dim)}}
     },
     {
       type: 'input',
@@ -136,13 +143,15 @@ const internQuestions = () => {
       type: 'input',
       message: "Please enter the intern's email address...".brightYellow,
       name: 'email',
-      validate: (value) => {if (value){return true} else {return console.log("Please enter a valid email address".red.dim)}}
+      validate: (value) => {if (value){return true} else 
+      {return console.log("Please enter a valid email address".red.dim)}}
     },
     {
       type: 'input',
       message: "Please enter the intern's school...".brightYellow,
       name: 'school',
-      validate: (value) => {if (value){return true} else {return console.log("Please enter a valid school".red.dim)}}
+      validate: (value) => {if (value){return true} else 
+      {return console.log("Please enter a valid school".red.dim)}}
     }
   ])
   .then(function({name, id, email, school}) {
@@ -157,7 +166,8 @@ const endTeam = () => {
   const filename = `generatedTeam.html`;
   const temp = new HTMLGenerator;
   fs.writeFile("./dist/" + filename, temp.template(generatedTemplate), (err) => 
-  err ? console.log(err) : console.log("\n\n\nYour team has been generated in the 'dist' folder.\nThanks for using the Team Generator!".brightGreen));
+  err ? console.log(err) : 
+  console.log("\n\n\nYour team has been generated in the 'dist' folder.\nThanks for using the Team Generator!".brightGreen));
 }
 
 starter();

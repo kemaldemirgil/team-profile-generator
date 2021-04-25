@@ -1,4 +1,6 @@
-
+body {
+    background-image: url(../assets/email-pattern.png);
+}
 .navbar-light .navbar-brand {
     color: whitesmoke;
     text-align: center;
@@ -7,18 +9,47 @@
 .card {
     margin: 40px 40px;
     float: none;
-    margin-bottom: 10px;
-    width: 20rem;
+    width: 18rem;
+    border: 6px solid #e6e6e6;
+    box-shadow: 2px 2px 4px #c7c7c7;
 }
 .card-body {
-    background-color:ghostwhite;
+    background-color:#e6e6e6;
 }
+.list-group {
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px #b8b8b8;
+}
+a {
+    color: #ff4e4e;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
 .list-group-item {
-    background-color:azure;
+    background-color:#d6d6d6;
+    border: 1px solid black;
 }
 .card-header {
-    background-color: azure;
+    background-color: #ff4e4e;
+    border: 3px solid #f80000;
+
 }
 .jumbotron {
-    background-color: azure;
+    background-image: url(../assets/small_steps.png);
+    border: 2px solid #e6e6e6;
+}
+.jumbotron h1{
+    font-size: 70px;
+    color: #b91313;
+    text-shadow: 2px 2px 6px #bd4e4e;
+}
+
+.jumbotron small{
+    letter-spacing: 6px;
+    color: grey;
 }
