@@ -1,4 +1,8 @@
-
+![GitHub top language](https://img.shields.io/github/languages/top/kemaldemirgil/team-profile-generator?color=yellow&label=Javascript&logo=javascript)
+![GitHub](https://img.shields.io/github/license/kemaldemirgil/team-profile-generator?color=cyan&label=License&logo=github&logoColor=cyan)
+![npm](https://img.shields.io/npm/v/npm?color=red&logo=npm)
+![node-current](https://img.shields.io/node/v/jest)
+![Website](https://img.shields.io/website?color=orange&down_color=red&down_message=Offline&label=Live%20Website&logo=github&logoColor=orange&up_message=Online&url=https%3A%2F%2Fkemaldemirgil.github.io%2Fteam-profile-generator%2Fdist%2FgeneratedTeam)
 # Team Profile Generator
 
 ### About:
@@ -23,7 +27,7 @@ There are 4 main classes and 33 tests that check these classes.
 ### Installation:
 1. Clone this repository\
 ![](assets/clone.gif)
-2. Run the following commands in the main directory:
+2. To install dependencies:
 ```bash
 npm install
 ```
