@@ -17,7 +17,7 @@ body {
     background-color:#e6e6e6;
 }
 .list-group {
-    border: 1px solid black;
+    border: 1px solid grey;
     box-shadow: 2px 2px 2px #b8b8b8;
 }
 a {
@@ -29,10 +29,9 @@ a:hover {
     color: #ff0000;
     text-decoration: none;
 }
-
 .list-group-item {
     background-color:#d6d6d6;
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 .card-header {
     background-color: #ff4e4e;
@@ -48,7 +47,6 @@ a:hover {
     color: #b91313;
     text-shadow: 2px 2px 6px #bd4e4e;
 }
-
 .jumbotron small{
     letter-spacing: 6px;
     color: grey;

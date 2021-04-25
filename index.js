@@ -60,6 +60,7 @@ const starter = () => {
         menu();
       })
     } else {
+      defaultID = 0;
       menu();
     }
   }) 
@@ -70,7 +71,7 @@ const menu = () => {
   inquirer.prompt([
     {
       type: 'list',
-      message: "Please select to add more members or end it...".brightGreen,
+      message: "Please select a new employee or end the selection...".brightGreen,
       name: 'menu',
       choices: ["Engineer".brightBlue, "Intern".brightYellow, "End".brightRed]
     }
