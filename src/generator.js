@@ -27,8 +27,8 @@ class Generator {
                         <div class="card-body">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">ID: ${user.id}</li>
-                                <li class="list-group-item">Email: <a href="mailto:${user.email}">${user.email}</a></li>
-                                <li class="list-group-item">Github: ${user.github}</li>
+                                <li class="list-group-item">Email: <a href="mailto:${user.email}" target="_blank">${user.email} </a></li>
+                                <li class="list-group-item">Github: <a href="https://github.com/${user.github}" target="_blank">${user.github}</a></li>
                             </ul>
                         </div>
                     </div>
