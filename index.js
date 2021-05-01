@@ -1,19 +1,21 @@
+//////////////////////////////////////Init//////////////////////////////////////
 const inquirer = require('inquirer');
 const fs = require("fs");
 const colors = require('colors');
-
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
 const Generator = require("./src/generator");
 const HTMLGenerator = require("./src/HTMLGenerator");
-
 let generatedTemplate = "";
 let defaultID = 1
 
+//////////////////////////////////////Programs//////////////////////////////////////
+// Greeting
 console.log("\n\nW e l c o m e    t o    t h e    T e a m    G e n e r a t o r\n\n".rainbow);
 console.log("Created by kemaldemirgil\n\n\n".gray.dim)
 
+// Asking if manager, if so, complete manager
 const starter = () => {
   inquirer .prompt([
     {
@@ -66,6 +68,7 @@ const starter = () => {
   }) 
 }
 
+// Employee type
 const menu = () => {
   defaultID++
   inquirer.prompt([
@@ -87,6 +90,7 @@ const menu = () => {
   })
 }
 
+// Engineer questions
 const engineerQuesitons = () => {
   inquirer.prompt([ 
     {
@@ -125,6 +129,7 @@ const engineerQuesitons = () => {
   })
 }
 
+// Intern questions
 const internQuestions = () => {
   inquirer.prompt([ 
     {
@@ -163,6 +168,7 @@ const internQuestions = () => {
   })
 }
 
+// Team generator finalize
 const endTeam = () => {
   const filename = `generatedTeam.html`;
   const temp = new HTMLGenerator;
@@ -171,4 +177,5 @@ const endTeam = () => {
   console.log("\n\n\nYour team has been generated in the 'dist' folder.\nThanks for using the Team Generator!".brightGreen));
 }
 
+//////////////////////////////////////RUN//////////////////////////////////////
 starter();
