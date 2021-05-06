@@ -1,8 +1,8 @@
-![GitHub top language](https://img.shields.io/github/languages/top/kemaldemirgil/team-profile-generator?color=yellow&label=Javascript&logo=javascript)
-![GitHub](https://img.shields.io/github/license/kemaldemirgil/team-profile-generator?color=cyan&label=License&logo=github&logoColor=cyan)
+![GitHub top language](https://img.shields.io/github/languages/top/kemaldemirgil/teamBuilder?color=yellow&label=Javascript&logo=javascript)
+![GitHub](https://img.shields.io/github/license/kemaldemirgil/teamBuilder?color=cyan&label=License&logo=github&logoColor=cyan)
 ![npm](https://img.shields.io/npm/v/npm?color=red&logo=npm)
 ![node-current](https://img.shields.io/node/v/jest)
-![Website](https://img.shields.io/website?color=orange&down_color=red&down_message=Offline&label=Live%20Website&logo=github&logoColor=orange&up_message=Online&url=https%3A%2F%2Fkemaldemirgil.github.io%2Fteam-profile-generator%2Fdist%2FgeneratedTeam)
+![Website](https://img.shields.io/website?color=orange&down_color=red&down_message=Offline&label=Live%20Website&logo=github&logoColor=orange&up_message=Online&url=https%3A%2F%2Fkemaldemirgil.github.io%2FteamBuilder%2Fdist%2FgeneratedTeam)
 # Team Profile Generator
 
 ### About:
@@ -22,6 +22,7 @@ There are 4 main classes and 33 tests that check these classes.
 ![](assets/demo.gif)
 
 ### Webpage:
+https://kemaldemirgil.github.io/teamBuilder/dist/generatedTeam
 ![](assets/htmlss.png)
 
 ### Installation:
@@ -59,4 +60,4 @@ npm test
 
 ### License:
 Copyright © Kemal Demirgil. All rights reserved.
-Licensed under the [MIT](https://github.com/kemaldemirgil/team-profile-generator/blob/main/LICENSE) license.
+Licensed under the [MIT](https://github.com/kemaldemirgil/teamBuilder/blob/main/LICENSE) license.
